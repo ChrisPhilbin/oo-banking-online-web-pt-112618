@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    balance = balance + amount
+    self.balance += amount
   end
 
 end
